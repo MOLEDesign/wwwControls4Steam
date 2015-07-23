@@ -105,6 +105,7 @@
                     <option value="parallel">Parallel</option>
                     <option value="stacked">Stacked</option>
                     <option value="doubled">First doubled</option>
+                    <option value="doubled-last">Last doubled</option>
                 </field>
                 <field type="select" name="responsive" label="Responsive" default="medium">
                     <option value="">Disabled</option>
