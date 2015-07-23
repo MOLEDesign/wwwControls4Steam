@@ -255,6 +255,22 @@ include($this['path']->path('layouts:theme.config.php'));
             </div>
         <?php endif; ?>
 
+        <?php if ($this['widgets']->count('bottom-d')) : ?>
+            <div class="tm-block<?php echo $block_classes['bottom-d']; ?>">
+
+                <?php if ($this['config']->get('layout_fullscreen', 0)) : ?>
+                <div class="uk-container uk-container-center">
+                    <?php endif; ?>
+
+                    <section class="<?php echo $grid_classes['bottom-d']; echo $display_classes['bottom-d']; ?>" data-uk-grid-match="{target:'> div > .uk-panel'}" data-uk-grid-margin><?php echo $this['widgets']->render('bottom-d', array('layout'=>$this['config']->get('grid.bottom-d.layout'))); ?></section>
+
+                    <?php if ($this['config']->get('layout_fullscreen', 0)) : ?>
+                </div>
+            <?php endif; ?>
+
+            </div>
+        <?php endif; ?>
+
         <?php if ($this['widgets']->count('footer-top')) : ?>
             <div class="tm-block<?php echo $block_classes['footer-top']; ?>">
 
