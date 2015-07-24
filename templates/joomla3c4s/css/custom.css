@@ -12,3 +12,11 @@
     color:#ffffff !important;
     font-weight: 300;
 }
+
+.about-map-image {
+    height: 600px;
+    overflow: hidden;
+}
+.about-map-image img {
+    min-height: 600px;
+}

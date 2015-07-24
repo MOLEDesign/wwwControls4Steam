@@ -35,6 +35,7 @@
                 <row>bottom-a</row>
                 <row>bottom-b</row>
                 <row>bottom-c</row>
+                <row>bottom-d</row>
                 <row>main-top</row>
                 <row>main-bottom</row>
                 <row>sidebar-a</row>
@@ -97,6 +98,7 @@
                     <row>bottom-a</row>
                     <row>bottom-b</row>
                     <row>bottom-c</row>
+                    <row>bottom-d</row>
                     <row>main-top</row>
                     <row>main-bottom</row>
                     <row>footer-top</row>
@@ -125,6 +127,7 @@
                     <row>bottom-a</row>
                     <row>bottom-b</row>
                     <row>bottom-c</row>
+                    <row>bottom-d</row>
                     <row>footer-top</row>
                     <row>footer</row>
                 </rows>
