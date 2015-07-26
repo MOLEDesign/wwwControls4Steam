@@ -69,7 +69,7 @@
 
 	<?php if ($more) : ?>
 	<p>
-		<a href="<?php echo $url; ?>" title="<?php echo $title; ?>"><?php echo $more; ?></a>
+		<a class="uk-button" href="<?php echo $url; ?>" title="<?php echo $title; ?>"><?php echo $more; ?></a>
 	</p>
 	<?php endif; ?>
 
