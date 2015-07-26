@@ -20,3 +20,29 @@
 .about-map-image img {
     min-height: 600px;
 }
+
+
+.uk-panel-box-secondary {
+    background-color: #4270AC;
+    color: #ffffff;
+    border-color: #919191;
+}
+
+.uk-panel-box-tertiary {
+    background-color: #E9382E;
+    color: #ffffff;
+    border-color: #919191;
+}
+
+.aquanet-box {
+    padding:15px;
+}
+
+.aquanet-box .uk-panel-title{
+    text-align: center;
+    min-height: 50px;
+}
+
+.home-page-teaser .uk-overlay-panel {
+    background-color: rgba(0,0,0,0.3);
+}
