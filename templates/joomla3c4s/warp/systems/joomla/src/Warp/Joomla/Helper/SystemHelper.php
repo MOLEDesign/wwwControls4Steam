@@ -376,7 +376,7 @@ class SystemHelper extends AbstractHelper
         }
       
         if ($app->input->get('option') == 'com_content') {
-            if (in_array($app->input->get('view'), array('frontpage', 'article', 'archive', 'featured')) || ($app->input->get('view') == 'category' && $app->input->get('layout') == 'blog')) {
+            if (in_array($app->input->get('view'), array('frontpage', 'category', 'article', 'archive', 'featured')) || ($app->input->get('view') == 'category' && $app->input->get('layout') == 'blog')) {
                 return true;
             }
         }
