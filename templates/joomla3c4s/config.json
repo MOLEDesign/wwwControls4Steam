@@ -125,7 +125,8 @@
 					"block-bg": " tm-block-default"
 				},
 				"bottom-a": {
-					"block-bg": " tm-block-default"
+					"block-bg": " tm-block-default",
+					"block-width": "1"
 				},
 				"bottom-b": {
 					"block-bg": " tm-block-default"
@@ -174,7 +175,7 @@
 					"responsive": "medium"
 				},
 				"top-c": {
-					"layout": "stacked",
+					"layout": "parallel",
 					"responsive": "medium"
 				},
 				"bottom-a": {
@@ -190,7 +191,7 @@
 					"responsive": "medium"
 				},
 				"bottom-d": {
-					"layout": "parallel",
+					"layout": "doubled-last",
 					"responsive": "medium"
 				},
 				"main-top": {
@@ -218,23 +219,25 @@
 					"block-bg": " tm-block-default"
 				},
 				"top-c": {
-					"block-bg": " tm-block-dark",
-					"block-width": "1"
+					"block-bg": " tm-block-default"
 				},
 				"middle": {
 					"block-bg": " tm-block-default"
 				},
 				"bottom-a": {
-					"block-bg": " tm-block-default"
+					"block-bg": " tm-block-dark",
+					"block-width": "1"
 				},
 				"bottom-b": {
 					"block-bg": " tm-block-default"
 				},
 				"bottom-c": {
-					"block-bg": " tm-block-default"
+					"block-bg": " tm-block-dark",
+					"block-width": "1"
 				},
 				"bottom-d": {
-					"block-bg": " tm-block-default"
+					"block-bg": " tm-block-default",
+					"block-width": "1"
 				},
 				"footer-top": {
 					"block-bg": " tm-block-default"
@@ -251,7 +254,7 @@
 			"style": "turquoise",
 			"layout_fullscreen": "1",
 			"sticky_navigation": "1",
-			"article": "tm-article-blog",
+			"article": "",
 			"sidebars": {
 				"sidebar-a": {
 					"width": "15",
@@ -352,6 +355,7 @@
 		},
 		"about": {
 			"style": "turquoise",
+			"system_output": "0",
 			"layout_fullscreen": "1",
 			"sticky_navigation": "1",
 			"article": "tm-article-blog",
@@ -396,7 +400,7 @@
 					"responsive": ""
 				},
 				"bottom-d": {
-					"layout": "doubled",
+					"layout": "doubled-last",
 					"responsive": ""
 				},
 				"main-top": {
@@ -453,6 +457,109 @@
 			"assignment": {
 				"0": "251"
 			}
+		},
+		"aquanet": {
+			"style": "turquoise",
+			"layout_fullscreen": "1",
+			"sticky_navigation": "1",
+			"article": "tm-article-blog",
+			"sidebars": {
+				"sidebar-a": {
+					"width": "15",
+					"alignment": "right"
+				},
+				"sidebar-b": {
+					"width": "15",
+					"alignment": "right"
+				}
+			},
+			"grid": {
+				"top-teaser": {
+					"layout": "parallel",
+					"responsive": "",
+					"divider": "1"
+				},
+				"top-a": {
+					"layout": "parallel",
+					"responsive": "medium"
+				},
+				"top-b": {
+					"layout": "parallel",
+					"responsive": "medium"
+				},
+				"top-c": {
+					"layout": "parallel",
+					"responsive": ""
+				},
+				"bottom-a": {
+					"layout": "parallel",
+					"responsive": "medium"
+				},
+				"bottom-b": {
+					"layout": "parallel",
+					"responsive": "medium"
+				},
+				"bottom-c": {
+					"layout": "parallel",
+					"responsive": ""
+				},
+				"bottom-d": {
+					"layout": "parallel",
+					"responsive": ""
+				},
+				"main-top": {
+					"layout": "parallel",
+					"responsive": "medium"
+				},
+				"main-bottom": {
+					"layout": "parallel",
+					"responsive": "medium"
+				},
+				"footer-top": {
+					"layout": "parallel",
+					"responsive": ""
+				}
+			},
+			"block": {
+				"top-teaser": {
+					"block-bg": " tm-block-default",
+					"block-width": "1"
+				},
+				"top-a": {
+					"block-bg": " tm-block-default"
+				},
+				"top-b": {
+					"block-bg": " tm-block-default"
+				},
+				"top-c": {
+					"block-bg": " tm-block-default"
+				},
+				"middle": {
+					"block-bg": " tm-block-default"
+				},
+				"bottom-a": {
+					"block-bg": " tm-block-default"
+				},
+				"bottom-b": {
+					"block-bg": " tm-block-default"
+				},
+				"bottom-c": {
+					"block-bg": " tm-block-default"
+				},
+				"bottom-d": {
+					"block-bg": " tm-block-default",
+					"block-width": "1"
+				},
+				"footer-top": {
+					"block-bg": " tm-block-default"
+				},
+				"footer": {
+					"block-bg": " tm-block-default"
+				}
+			},
+			"assignment": {
+				"0": "279"
+			}
 		}
 	},
 	"widgets": {
@@ -485,7 +592,7 @@
 			}
 		},
 		"114": {
-			"class": "",
+			"class": "home-page-teaser",
 			"panel": "",
 			"icon": "",
 			"badge": {
@@ -512,49 +619,7 @@
 				"small": "1"
 			}
 		},
-		"119": {
-			"class": "",
-			"panel": "",
-			"icon": "",
-			"badge": {
-				"type": "uk-panel-badge uk-badge",
-				"text": ""
-			},
-			"display": {
-				"large": "1",
-				"medium": "1",
-				"small": "1"
-			}
-		},
-		"127": {
-			"class": "",
-			"panel": "",
-			"icon": "",
-			"badge": {
-				"type": "uk-panel-badge uk-badge",
-				"text": ""
-			},
-			"display": {
-				"large": "1",
-				"medium": "1",
-				"small": "1"
-			}
-		},
 		"134": {
-			"class": "",
-			"panel": "",
-			"icon": "",
-			"badge": {
-				"type": "uk-panel-badge uk-badge",
-				"text": ""
-			},
-			"display": {
-				"large": "1",
-				"medium": "1",
-				"small": "1"
-			}
-		},
-		"136": {
 			"class": "",
 			"panel": "",
 			"icon": "",
@@ -638,48 +703,6 @@
 				"small": "1"
 			}
 		},
-		"153": {
-			"class": "",
-			"panel": "",
-			"icon": "",
-			"badge": {
-				"type": "uk-panel-badge uk-badge",
-				"text": ""
-			},
-			"display": {
-				"large": "1",
-				"medium": "1",
-				"small": "1"
-			}
-		},
-		"155": {
-			"class": "",
-			"panel": "",
-			"icon": "",
-			"badge": {
-				"type": "uk-panel-badge uk-badge",
-				"text": ""
-			},
-			"display": {
-				"large": "1",
-				"medium": "1",
-				"small": "1"
-			}
-		},
-		"156": {
-			"class": "",
-			"panel": "",
-			"icon": "",
-			"badge": {
-				"type": "uk-panel-badge uk-badge",
-				"text": ""
-			},
-			"display": {
-				"large": "1",
-				"medium": "1",
-				"small": "1"
-			}
-		},
 		"157": {
 			"class": "",
 			"panel": "",
@@ -724,7 +747,7 @@
 		},
 		"160": {
 			"class": "",
-			"panel": "",
+			"panel": "uk-panel",
 			"icon": "",
 			"badge": {
 				"type": "uk-panel-badge uk-badge",
@@ -733,7 +756,7 @@
 			"display": {
 				"large": "1",
 				"medium": "1",
-				"small": "1"
+				"small": "0"
 			}
 		},
 		"163": {
@@ -848,20 +871,6 @@
 				"small": "1"
 			}
 		},
-		"174": {
-			"class": "",
-			"panel": "",
-			"icon": "",
-			"badge": {
-				"type": "uk-panel-badge uk-badge",
-				"text": ""
-			},
-			"display": {
-				"large": "1",
-				"medium": "1",
-				"small": "1"
-			}
-		},
 		"175": {
 			"class": "",
 			"panel": "",
@@ -879,6 +888,160 @@
 		"176": {
 			"class": "",
 			"panel": "uk-panel",
+			"icon": "",
+			"badge": {
+				"type": "uk-panel-badge uk-badge",
+				"text": ""
+			},
+			"display": {
+				"large": "1",
+				"medium": "1",
+				"small": "0"
+			}
+		},
+		"177": {
+			"class": "",
+			"panel": "",
+			"icon": "",
+			"badge": {
+				"type": "uk-panel-badge uk-badge",
+				"text": ""
+			},
+			"display": {
+				"large": "1",
+				"medium": "1",
+				"small": "0"
+			}
+		},
+		"178": {
+			"class": "",
+			"panel": "",
+			"icon": "",
+			"badge": {
+				"type": "uk-panel-badge uk-badge",
+				"text": ""
+			},
+			"display": {
+				"large": "1",
+				"medium": "1",
+				"small": "1"
+			}
+		},
+		"179": {
+			"class": "",
+			"panel": "",
+			"icon": "",
+			"badge": {
+				"type": "uk-panel-badge uk-badge",
+				"text": ""
+			},
+			"display": {
+				"large": "1",
+				"medium": "1",
+				"small": "1"
+			}
+		},
+		"180": {
+			"class": "aquanet-box",
+			"panel": "uk-panel uk-panel-box uk-panel-box-secondary",
+			"icon": "",
+			"badge": {
+				"type": "uk-panel-badge uk-badge",
+				"text": ""
+			},
+			"display": {
+				"large": "1",
+				"medium": "1",
+				"small": "1"
+			}
+		},
+		"181": {
+			"class": "aquanet-box",
+			"panel": "uk-panel uk-panel-box uk-panel-box-tertiary",
+			"icon": "",
+			"badge": {
+				"type": "uk-panel-badge uk-badge",
+				"text": ""
+			},
+			"display": {
+				"large": "1",
+				"medium": "1",
+				"small": "1"
+			}
+		},
+		"182": {
+			"class": "aquanet-box",
+			"panel": "uk-panel uk-panel-box uk-panel-box-secondary",
+			"icon": "",
+			"badge": {
+				"type": "uk-panel-badge uk-badge",
+				"text": ""
+			},
+			"display": {
+				"large": "1",
+				"medium": "1",
+				"small": "1"
+			}
+		},
+		"183": {
+			"class": "aquanet-box",
+			"panel": "uk-panel uk-panel-box uk-panel-box-tertiary",
+			"icon": "",
+			"badge": {
+				"type": "uk-panel-badge uk-badge",
+				"text": ""
+			},
+			"display": {
+				"large": "1",
+				"medium": "1",
+				"small": "1"
+			}
+		},
+		"184": {
+			"class": "",
+			"panel": "",
+			"icon": "",
+			"badge": {
+				"type": "uk-panel-badge uk-badge",
+				"text": ""
+			},
+			"display": {
+				"large": "1",
+				"medium": "1",
+				"small": "1"
+			}
+		},
+		"185": {
+			"class": "",
+			"panel": "",
+			"icon": "",
+			"badge": {
+				"type": "uk-panel-badge uk-badge",
+				"text": ""
+			},
+			"display": {
+				"large": "1",
+				"medium": "1",
+				"small": "1"
+			}
+		},
+		"186": {
+			"class": "",
+			"panel": "",
+			"icon": "",
+			"badge": {
+				"type": "uk-panel-badge uk-badge",
+				"text": ""
+			},
+			"display": {
+				"large": "1",
+				"medium": "1",
+				"small": "1"
+			}
+		},
+		"187": {
+			"class": "",
+			"panel": "",
 			"icon": "",
 			"badge": {
 				"type": "uk-panel-badge uk-badge",
@@ -962,7 +1125,7 @@
 			"columns": "1",
 			"columnwidth": "",
 			"icon": "",
-			"subtitle": ""
+			"subtitle": "Controls4Steam"
 		}
 	}
 }

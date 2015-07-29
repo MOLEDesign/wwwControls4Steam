@@ -25,29 +25,6 @@ include($this['path']->path('layouts:theme.config.php'));
 
         <header <?php echo $sticky_navigation; ?> >
 
-            <?php if ($this['widgets']->count('toolbar-l + toolbar-r')) : ?>
-            <div class="tm-toolbar uk-clearfix uk-hidden-small tm-block-dark">
-
-            <?php if ($this['config']->get('layout_fullscreen', 0)) : ?>
-            <div class="uk-container uk-container-center">
-            <?php endif; ?>
-
-                <?php if ($this['widgets']->count('toolbar-l')) : ?>
-                <div class="uk-float-left"><?php echo $this['widgets']->render('toolbar-l'); ?></div>
-                <?php endif; ?>
-
-                <?php if ($this['widgets']->count('toolbar-r')) : ?>
-                <div class="uk-float-right"><?php echo $this['widgets']->render('toolbar-r'); ?></div>
-                <?php endif; ?>
-
-            <?php if ($this['config']->get('layout_fullscreen', 0)) : ?>
-            </div>
-            <?php endif; ?>
-
-            </div>
-            <?php endif; ?>
-
-
             <?php if ($this['widgets']->count('logo + menu + search')) : ?>
             <nav class="tm-navbar uk-navbar">
 
@@ -90,6 +67,28 @@ include($this['path']->path('layouts:theme.config.php'));
             <?php endif; ?>
 
             </nav>
+            <?php endif; ?>
+
+            <?php if ($this['widgets']->count('toolbar-l + toolbar-r')) : ?>
+                <div class="tm-toolbar uk-clearfix uk-hidden-small tm-block-dark">
+
+                    <?php if ($this['config']->get('layout_fullscreen', 0)) : ?>
+                    <div class="uk-container uk-container-center">
+                        <?php endif; ?>
+
+                        <?php if ($this['widgets']->count('toolbar-l')) : ?>
+                            <div class="uk-float-left"><?php echo $this['widgets']->render('toolbar-l'); ?></div>
+                        <?php endif; ?>
+
+                        <?php if ($this['widgets']->count('toolbar-r')) : ?>
+                            <div class="uk-float-right"><?php echo $this['widgets']->render('toolbar-r'); ?></div>
+                        <?php endif; ?>
+
+                        <?php if ($this['config']->get('layout_fullscreen', 0)) : ?>
+                    </div>
+                <?php endif; ?>
+
+                </div>
             <?php endif; ?>
 
         </header>
