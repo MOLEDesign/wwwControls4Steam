@@ -118,13 +118,13 @@
 	<?php endif; ?>
 
 	<?php if ($title) : ?>
-	<h1 class="uk-article-title">
+	<h3 class="uk-article-title">
 		<?php if ($url && $title_link) : ?>
 			<a href="<?php echo $url; ?>" title="<?php echo $title; ?>"><?php echo $title; ?></a>
 		<?php else : ?>
 			<?php echo $title; ?>
 		<?php endif; ?>
-	</h1>
+	</h3>
 	<?php endif; ?>
 
 	<?php echo $hook_aftertitle; ?>
@@ -167,7 +167,7 @@
 	<?php echo $hook_beforearticle; ?>
 
 	<?php if ($article) : ?>
-	<div>
+	<div class="intro-article-holder">
 		<?php echo $article; ?>
 	</div>
 	<?php endif; ?>

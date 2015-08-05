@@ -46,3 +46,18 @@
 .home-page-teaser .uk-overlay-panel {
     background-color: rgba(0,0,0,0.3);
 }
+
+.uk-article-title {
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: 400;
+    text-transform: none;
+}
+
+.uk-width-medium-1-3 .uk-article-title {
+    height:50px;
+}
+.uk-width-medium-1-3 .intro-article-holder {
+    height:180px;
+    overflow:hidden;
+}
