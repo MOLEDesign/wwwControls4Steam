@@ -61,3 +61,46 @@
     height:180px;
     overflow:hidden;
 }
+
+.tm-block-dark, .tm-block-primary {
+    color: #000000 !important;
+}
+.tm-block-dark {
+    background: #ffffff !important;
+}
+
+.mailchimp-field {
+    display:inline;
+    float:left;
+}
+.mailchimp-button {
+    display:inline;
+    float:right;
+}
+
+.uk-navbar-toggle {
+    z-index: 100;
+}
+
+.thermal-slideshow .uk-slideshow {
+    overflow: visible;
+    width:50%;
+    max-height: 500px;
+    height: 500px;
+    margin:0px auto;
+}
+
+.thermal-slideshow .uk-thumbnav {
+    position: relative;
+    /* float: right; */
+    top: 0px;
+}
+
+.thermal-slideshow .uk-position-cover {
+    float: left;
+    width: 100%;}
+
+.thermal-slideshow .uk-overlay-hover:hover [class*='uk-overlay-slide'], .thermal-slideshow .uk-overlay-active .uk-active > [class*='uk-overlay-slide'] {
+    top: 100%!important;
+    color: black !important;
+}
