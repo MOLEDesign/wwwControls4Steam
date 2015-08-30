@@ -65,9 +65,7 @@
 .tm-block-dark, .tm-block-primary {
     color: #000000 !important;
 }
-.tm-block-dark {
-    background: #ffffff !important;
-}
+
 
 .mailchimp-field {
     display:inline;
