@@ -146,6 +146,31 @@
     transition: all 0.1s ease-in-out;
 }
 
-.tm-block-dark {
+.tm-block-toolbar {
     background: #EFEEEE;
+    color: black !important;
+}
+
+.tm-block-toolbar a {
+    color: black !important;
+}
+
+.tm-toolbar {
+    padding: 3px 60px;
+    background-color: #EFEEEE;
+}
+
+.tm-logo .uk-visible-small {
+    width:65%;
+}
+
+.uk-navbar-toggle {
+    z-index: 9999;
+}
+
+@media (max-width: 480px) {
+h1 {
+    font-size: 30px;
+    line-height: 35px;
+}
 }

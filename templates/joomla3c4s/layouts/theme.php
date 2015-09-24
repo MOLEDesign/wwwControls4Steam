@@ -26,7 +26,7 @@ include($this['path']->path('layouts:theme.config.php'));
         <header <?php echo $sticky_navigation; ?> >
 
             <?php if ($this['widgets']->count('toolbar-l + toolbar-r')) : ?>
-                <div class="tm-toolbar uk-clearfix uk-hidden-small tm-block-dark">
+                <div class="tm-toolbar uk-clearfix uk-hidden-small tm-block-toolbar">
 
                     <?php if ($this['config']->get('layout_fullscreen', 0)) : ?>
                     <div class="uk-container uk-container-center">
