@@ -500,12 +500,12 @@
 					"responsive": "medium"
 				},
 				"bottom-c": {
-					"layout": "parallel",
+					"layout": "stacked",
 					"responsive": ""
 				},
 				"bottom-d": {
 					"layout": "parallel",
-					"responsive": ""
+					"responsive": "medium"
 				},
 				"main-top": {
 					"layout": "parallel",
@@ -547,8 +547,7 @@
 					"block-bg": " tm-block-default"
 				},
 				"bottom-d": {
-					"block-bg": " tm-block-default",
-					"block-width": "1"
+					"block-bg": " tm-block-default"
 				},
 				"footer-top": {
 					"block-bg": " tm-block-default"
@@ -1095,7 +1094,7 @@
 			"columns": "1",
 			"columnwidth": "",
 			"icon": "",
-			"subtitle": "Controls4Steam"
+			"subtitle": "Controls 4 Steam"
 		},
 		"252": {
 			"columns": "1",

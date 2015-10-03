@@ -174,3 +174,10 @@ h1 {
     line-height: 35px;
 }
 }
+
+.uk-article-title {
+    font-size: 23px;
+    line-height: 25px;
+    font-weight: 400;
+    text-transform: none;
+}
