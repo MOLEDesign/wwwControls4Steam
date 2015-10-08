@@ -181,3 +181,21 @@ h1 {
     font-weight: 400;
     text-transform: none;
 }
+
+.tm-logo-small {
+    width:214px !important;
+}
+
+
+.cmc-signup .alert {
+    background-color: #ffffff;
+    border: none;
+    margin-bottom: 18px;
+    padding: 8px 35px 8px 14px;
+    text-shadow: nonel
+}
+
+.alert-success {
+    background: inherit;
+    color: #000000;
+}

@@ -59,7 +59,7 @@ include($this['path']->path('layouts:theme.config.php'));
                 <?php endif; ?>
 
                 <?php if ($this['widgets']->count('logo-small')) : ?>
-                <a class="tm-logo uk-visible-small" href="<?php echo $this['config']->get('site_url'); ?>"><?php echo $this['widgets']->render('logo-small'); ?></a>
+                <a class="tm-logo uk-visible-small tm-logo-small" href="<?php echo $this['config']->get('site_url'); ?>"><?php echo $this['widgets']->render('logo-small'); ?></a>
                 <?php endif; ?>
 
                 <div class="uk-navbar-flip">
