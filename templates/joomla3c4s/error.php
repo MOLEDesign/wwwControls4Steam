@@ -9,11 +9,6 @@
 // no direct access
 defined('_JEXEC') or die('Restricted access');
 
-if (($this->error->getCode()) == '404') {
-    header('Location: /index.php?option=com_content&view=article&id=75');
-    exit;
-}
-
 // get warp
 $warp = require(__DIR__.'/warp.php');
 
